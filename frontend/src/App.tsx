@@ -7,9 +7,13 @@ function App() {
   const [city, setCity] = useState('');
   const [weather, setWeather] = useState<any>(null);
 
+  const baseUrl = import.meta.env.VITE_API_BASE;
+  const apiKey = import.meta.env.VITE_API_KEY;
+  
+
   const getWeather = async () => {
     try {
-      const response = await axios.get(`http://localhost:5246/api/Weather?city=${city}`);
+      const response = await axios.get(`${baseUrl}/weather?q=${city}&appid=${apiKey}`);
       setWeather(response.data);
     } catch (error) {
       console.error('Error retrieving weather data', error);
