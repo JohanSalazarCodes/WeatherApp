@@ -434,11 +434,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\az-204\\WeatherApp\\backend\\backend.csproj",
+      "projectUniqueName": "C:\\Users\\jsalazar\\Desktop\\Weather\\WeatherApp\\backend\\backend.csproj",
       "projectName": "backend",
-      "projectPath": "E:\\az-204\\WeatherApp\\backend\\backend.csproj",
+      "projectPath": "C:\\Users\\jsalazar\\Desktop\\Weather\\WeatherApp\\backend\\backend.csproj",
       "packagesPath": "C:\\Users\\jsalazar\\.nuget\\packages\\",
-      "outputPath": "E:\\az-204\\WeatherApp\\backend\\obj\\",
+      "outputPath": "C:\\Users\\jsalazar\\Desktop\\Weather\\WeatherApp\\backend\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
